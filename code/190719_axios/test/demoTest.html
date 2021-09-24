@@ -19,6 +19,12 @@
         Object.keys(str).forEach(key => {
             console.log('key='+key+',value ='+str[key])
         })
+
+        let targetObj1 = { a: 1 };
+        let sourceObj1 = { b: 1 };
+        let sourceObj11 = { c: 3 };
+        Object.assign(targetObj1, sourceObj1, sourceObj11);
+        console.log(targetObj1);
     </script>
 
 </body>
