@@ -1,4 +1,3 @@
-<font size = 4>
 
 # axios从入门到源码分析 
 
