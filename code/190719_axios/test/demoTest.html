@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+
+<body>
+    <script>
+        //Object.keys() 会返回一个数组，数组中是这个对象的key值列表
+        let str ={
+            name:'zhangsan',
+            age:15,
+            sex:'男'
+        } 
+        Object.keys(str).forEach(key => {
+            console.log('key='+key+',value ='+str[key])
+        })
+    </script>
+
+</body>
+
+</html>
