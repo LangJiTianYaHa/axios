@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 2
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 3
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 4
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 5
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 6
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 7
+    },
+    {
+      "title": "ddd",
+      "author": "ddd",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -24,14 +24,23 @@
     })
 
     // instance不是axios的实例, instance是函数
-    const instance = axios.create({ // 指定instance的默认配置
+    /* const instance = axios.create({ // 指定instance的默认配置
       baseURL: 'http://localhost:4000',
       timeout: 15000
     })
 
     instance({
       url: '/post'
+    }) */
+    const instanse = axios.create({
+      baseURL:'http://localhost:4000',
+      timeout:15000
     })
+    instanse({
+      url:'/post'
+    })
+
+    
   </script>
 </body>
 </html>
