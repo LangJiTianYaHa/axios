@@ -42,9 +42,9 @@
 
       // 3). 请求体参数以urlencoded形式传递
       // 对data参数数据进行处理: 转换为urlencoded格式(原本是对象)
-      if (config.data instanceof Object) {
+      /* if (config.data instanceof Object) {
         config.data = Qs.stringify(config.data)
-      }
+      } */
 
       return config
     })

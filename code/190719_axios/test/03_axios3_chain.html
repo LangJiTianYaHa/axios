@@ -40,13 +40,13 @@
       return config
     }); */
     axios.interceptors.request.use(function (config) {
-      console.log('req interceptors onresolved()',config)
+      console.log('req interceptors1111 onresolved()',config)
       return config
       
     })
 
     axios.interceptors.request.use(function (config) {
-      console.log('req interceptors222 onresolved()',config)
+      console.log('req interceptors2222 onresolved()',config)
       return config
       
     })
@@ -65,29 +65,29 @@
    
      axios.interceptors.response.use(
       function (response) {
-        console.log('res interceptor1 onResolved()', response)
+        console.log('res interceptor11111 onResolved()', response)
         // return response;
         return response.data;
       },
       function (error) {
-        console.log('res interceptor1 onRejected()')
+        console.log('res interceptor11111 onRejected()')
         return Promise.reject(error);
       }
     )
     axios.interceptors.response.use(
       function (data) {
-        console.log('res interceptor2 onResolved()', data)
+        console.log('res interceptor2222 onResolved()', data)
         return data;
       },
       function (error) {
-        console.log('res interceptor2 onRejected()')
+        console.log('res interceptor22222 onRejected()')
         return Promise.reject(error);
       }
     ) 
     
 
 
-    axios({
+    /* axios({
       url: '/posts'
     }).then(
       data => {
@@ -96,7 +96,7 @@
       error => {
         console.log('onRejected()')
       }
-    ) 
+    )  */
     axios({
       url:'/posts'
 
